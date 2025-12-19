@@ -1,0 +1,27 @@
+######## Muons on Iron ######
+
+Energy at x = -0.1: E = 1.00557 GeV
+Energy at x = +0.1: E = 1.00375 GeV
+
+ΔE = 1.82 MeV
+
+ΔE/Δx = 2.01 MeV/0.2cm = 9.1 MeV/cm
+
+1/ρ * ΔE/Δx = 1/(8.96 g/cm^3) * 9.1 MeV/cm = 1.016 MeV cm^2/g
+
+
+######## Muons on Lead ######
+
+Energy at x = -0.1: E = 1.00557 GeV
+Energy at x = +0.1: E = 1.00364 GeV
+
+ΔE = 1.93 MeV
+
+ΔE/Δx = 1.93 MeV/20cm = 9.65 MeV/cm
+
+1/ρ * ΔE/Δx = 1/(8.96 g/cm^3) * 9.65 MeV/cm = 1.077 MeV cm^2/g
+
+
+
+Both values are in a similar range of the minimum ionizing energy shown in the lecture script. Weirdly enough for me the muon looses less energy on iron than on lead, whereas in the script it is the other way aorund.
+At least comparing to exercise 1b) the muon has a lower energy loss in lead and iron compared to copper in accordance to the lecture
