@@ -1,0 +1,11 @@
+The histogram for the energy deposited on the copper block should be a Landau distribution and the one i plotted with my simulation looks like one due to its large tail to the right. 
+If I remember correctly it should be a Landau distribution due to the small width of the copper block.
+
+Using the command hloss->Fit("landau"); i can fit the function f(x) = C * L((x - MPV)/σ) on to the histogramm. Here L(x) is the Landau distribution
+
+After doing so i get the following values:
+
+NO.   NAME      VALUE            ERROR          SIZE      DERIVATIVE 
+   1  Constant     8.61961e+02   4.30624e+01   1.00835e-01   1.84056e-06
+   2  MPV          2.08219e+00   7.84165e-03   2.60420e-05  -9.49880e-03
+   3  Sigma        1.13563e-01   4.47938e-03   1.10976e-05   2.94668e-02
